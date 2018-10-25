@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Ruang.Menu_ruang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="4dp"
+                android:id="@+id/Balok"
+                android:background="@drawable/balok"
+                android:text="Balok"
+                android:textColor="@android:color/black" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="4dp"
+                android:id="@+id/Bola"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bola"
+                android:text="Bola"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="4dp"
+                android:id="@+id/Kerucut"
+                android:background="@drawable/kerucut"
+                android:text="Kerucut"
+                android:textColor="@android:color/black" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="4dp"
+                android:id="@+id/Kubus"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/kubus"
+                android:text="Kubus"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="4dp"
+                android:id="@+id/Limas"
+                android:background="@drawable/limas_segi_empat"
+                android:text="Limas"
+                android:textColor="@android:color/black" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="4dp"
+                android:id="@+id/Prisma"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/prisma"
+                android:text="Prisma"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="90dp"
+                android:id="@+id/Tabung"
+                android:background="@drawable/tabung"
+                android:text="Tabung"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

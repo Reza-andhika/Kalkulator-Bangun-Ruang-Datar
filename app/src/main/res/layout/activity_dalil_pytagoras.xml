@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".Datar.dalil_pytagoras.Dalil_pytagoras">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:id="@+id/table_gambar"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@android:color/white"
+                android:paddingLeft="4dp">
+
+                <ImageView
+                    android:id="@+id/gambar"
+                    android:layout_width="130dp"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="8dp"
+                    android:src="@drawable/pytagoras" />
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_toEndOf="@+id/table_gambar"
+                android:background="@android:color/white"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/luas"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Sisi Miring"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rumus_luas"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:text="c² = a² + b²" />
+
+                <TextView
+                    android:id="@+id/keliling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="a (kaki sudut siku siku)"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="√c²-b² "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="Diagonal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="√c²-a²" />
+
+            </TableLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Masukan Dua Nilai"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/text_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="a"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/nilai_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/text_view_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/nilai_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="c"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/nilai_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:inputType="numberDecimal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_hitung"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:text="Hitung"
+                android:textColor="@android:color/white" />
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button2"
+                android:text="Reset"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.kalkulator_rumus">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ruang.Menu_ruang" />
+        <activity android:name=".Datar.Menu_Datar" />
+        <activity android:name=".Datar.Belahkeupat.BelahKetupat" />
+        <activity android:name=".Datar.dalil_pytagoras.Dalil_pytagoras" />
+        <activity android:name=".Datar.Jajargenjang.Jajargenjang" />
+        <activity android:name=".Datar.Lingkaran.Lingkaran" />
+        <activity android:name=".Datar.persegi.persegi" />
+        <activity android:name=".Datar.Persegipanjang.PersegiPanjang" />
+        <activity android:name=".Datar.sama_kaki.Segitiga_kaki" />
+        <activity android:name=".Datar.sama_siku.Segitiga_siku" />
+        <activity android:name=".Datar.Segitiga.Segitiga" />
+        <activity android:name=".Datar.trapesium.Trapesium" />
+        <activity android:name=".Ruang.Balok.Balok" />
+        <activity android:name=".Ruang.Bola.Bola" />
+        <activity android:name=".Ruang.Kerucut.Kerucut" />
+        <activity android:name=".Ruang.Kubus.Kubus" />
+        <activity android:name=".Ruang.Limas.Limas" />
+        <activity android:name=".Ruang.Prisma.Prisma" />
+        <activity android:name=".Ruang.Tabung.Tabung"></activity>
+    </application>
+
+</manifest>
